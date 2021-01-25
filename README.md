@@ -4,11 +4,13 @@
 
 * Youll need to npm start the server first before checking the site
 
-* Remember to check it on https://localhost:3443/ , with a S , if its not working you might need to go to   chrome://flags/     and enable the "Allow Invalid certificate" 
+* Remember to check it on https://localhost:3443/ , if its not working you might need to go to   chrome://flags/     and enable the "Allow Invalid certificate" , only thing youll see on the page is 'Hallo from SSL SERVER'.
+
+* To see the certificate check the NOT SECURE to left of the url, there you will see certificate.
 
 
 
-* * Ran these command in terminal 
+* * Ran these command in terminal  to make the KEY, CSR and CERT
 
 * Generate private key
 * openssl genrsa -out key.pem
